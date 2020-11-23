@@ -11,6 +11,7 @@
 		2626E80B25674F0B00E9F65F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2626E80A25674F0B00E9F65F /* Assets.xcassets */; };
 		2626E80E25674F0B00E9F65F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2626E80C25674F0B00E9F65F /* MainMenu.xib */; };
 		2626E81125674F0B00E9F65F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2626E81025674F0B00E9F65F /* main.m */; };
+		2626E8202567519200E9F65F /* MySoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2626E81F2567519200E9F65F /* MySoundPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		2626E80F25674F0B00E9F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2626E81025674F0B00E9F65F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2626E81225674F0B00E9F65F /* MySoundPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySoundPlayer.entitlements; sourceTree = "<group>"; };
+		2626E81E2567519200E9F65F /* MySoundPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySoundPlayer.h; sourceTree = "<group>"; };
+		2626E81F2567519200E9F65F /* MySoundPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySoundPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				2626E80F25674F0B00E9F65F /* Info.plist */,
 				2626E81025674F0B00E9F65F /* main.m */,
 				2626E81225674F0B00E9F65F /* MySoundPlayer.entitlements */,
+				2626E81E2567519200E9F65F /* MySoundPlayer.h */,
+				2626E81F2567519200E9F65F /* MySoundPlayer.m */,
 			);
 			path = MySoundPlayer;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 			files = (
 				2626E81125674F0B00E9F65F /* main.m in Sources */,
 				2626E80925674F0500E9F65F /* AppDelegate.m in Sources */,
+				2626E8202567519200E9F65F /* MySoundPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -255,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -274,6 +280,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mydns.quantum.MySoundPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -291,6 +298,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mydns.quantum.MySoundPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
